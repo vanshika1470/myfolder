@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('backgroundimage.jpg');
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        /* Container for top-left corner */
+        .top-left {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        /* Container for top-right corner */
+        .top-right {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        /* Centering the content */
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Styling the content */
+        .center {
+            text-align: center;
+        }
+
+        .text-white {
+            color: white;
+        }
+
+        .top-left p {
+            margin-left: 45px;
+            margin-top: 30px;
+            color: #dbdbdb; /* Change text color to dbdbdb */
+        }
+
+        .top-right pre {
+            margin-right: 45px;
+            margin-top: 30px;
+            color: #dbdbdb; /* Change text color to dbdbdb */
+        }
+    </style>
+</head>
+<body>
+    <div class="top-left">
+        <pre>Pricing   Services   Work </pre>
+    </div>
+
+    <div class="top-right">
+        <pre>Let’s Talk</pre>
+    </div>
+
+    <div class="center">
+        <h2 class="text-white" style="margin: 0;">Gloutir</h2>
+        <p class="text-white" style="margin: 0;"> BOUTIQUE, IN-HOUSE</p>
+        <h1 class="text-white" style="margin: 0;">Design &</h1>
+        <h1 class="text-white" style="margin: 0;">Development</h1>
+        <p class="text-white" style="margin: 0;">An award winning design and development studio that executes</p>
+        <p class="text-white" style="margin: 0;">extremely  creative ideas at a pace fast enough to keep the </p>
+        <p class="text-white" style="margin: 0;">existential dread at bay.</p>
+    </div>
+</body>
+</html>

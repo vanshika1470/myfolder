@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+.button1 {
+    background-color: white;
+    color: black;
+    border: 5px solid #04AA6D; /* Green */
+    padding: 15px 32px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 5px solid #04AA6D; /* Green */
+    padding: 15px 32px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+  body{
+    text-align: center;
+    /* background-image: url(https://www.smashingmagazine.com/files/wallpapers/jan-23/bird-bird-bird-bird/jan-23-bird-bird-bird-bird-full.png); */
+    background-image: url(img/kahna.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+
+  }
+   *{
+    margin: 0;
+    padding: 0;
+   }
+   .container{
+       display: flex;
+       min-height: 100vh;
+       background: #f3f3f5f4;
+       align-items: center;
+       justify-content: center;
+   }
+
+   .container.img{
+    background: url(img/kahna.jpg);
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+   }
+
+   .container.overlay{
+    height: 400px;
+    opacity: 0.2;
+    width: 600px;
+    background: linear-gradient(from top to bottom,rgba(176, 171, 171, 0.93),rgba(255, 255, 255, 0.853));
+    position: absolute;
+   }
+</style>
+</head>
+
+<body >
+
+    <p>This is my first</p>
+    <h1>HTML</h1>  
+    <p>exercise.</p>
+    <button class="button1">Hello!!</button>
+    <button class="button2">Reload</button><br>
+    <p>---------------------------------------------------</p>
+    <a href="https://google.com"target=_blank>Click Me</a>
+
+    <div class="container">
+     <div class="img"></div>
+     <div class="overlay"></div>
+
+   
+    </div>
+    
+</body>
+
+</html>

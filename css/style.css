@@ -1,0 +1,54 @@
+
+        #overlay {
+            position: fixed;
+            /* display: none;
+            width: 100%;
+            height: 100%; */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        h1 {
+            font-size: 125px;
+            color:aquamarine;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        .main-body {
+            text-align: center;
+            padding: 180px;
+            margin: auto;
+            background-image: url(https://getwallpapers.com/wallpaper/full/1/8/a/448281.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .btn-primary {
+            width: 115px;
+            height: 40px;
+            background-color: cornflowerblue;
+            border: 2px dashed #fff;
+            border-radius: 13px;
+            font-weight: 800;
+            color: #fff;
+        }
+
+        .btn-warning {
+            width: 115px;
+            height: 40px;
+            background-color: #edb664;
+            border: 2px dashed #ffffff;
+            border-radius: 13px;
+            font-weight: 800;
+            color: #fff;
+        }
+
+        .text-white {
+            color: #fff;
+        }
